@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdfTextExctractor", "pdfTextExctractor\pdfTextExctractor.csproj", "{FF633A5F-E3A5-4725-B501-BBFE3FB91BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pdfTextExctractorConsole", "pdfTextExctractorConsole\pdfTextExctractorConsole.csproj", "{95944FEF-243B-4CFA-8ABA-EF5689EE3048}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF633A5F-E3A5-4725-B501-BBFE3FB91BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF633A5F-E3A5-4725-B501-BBFE3FB91BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF633A5F-E3A5-4725-B501-BBFE3FB91BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF633A5F-E3A5-4725-B501-BBFE3FB91BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95944FEF-243B-4CFA-8ABA-EF5689EE3048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95944FEF-243B-4CFA-8ABA-EF5689EE3048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95944FEF-243B-4CFA-8ABA-EF5689EE3048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95944FEF-243B-4CFA-8ABA-EF5689EE3048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06734C2A-8AD5-4F81-84BE-34921A35FB80}
+	EndGlobalSection
+EndGlobal
