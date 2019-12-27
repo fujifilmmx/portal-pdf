@@ -31,6 +31,11 @@ namespace pdfTextExctractor
                 try
                 {
                     File1.PostedFile.SaveAs(SaveLocation);
+                    if (chkAutomatico.Checked)
+                    {
+                        txtOld.Value = "Concepto de pago";
+                        txtNew.Value = "Motivo de pago";
+                    }
                     Pdf.ReplaceTextInPdfFile(SaveLocation, ConvertedFileLocation, txtOld.Value, txtNew.Value);
                     byte[] Content = File.ReadAllBytes(ConvertedFileLocation); //missing ;
                     Response.ContentType = "text/csv";
